@@ -24,7 +24,7 @@ public class collection4 {
 		int n = num.nextInt();
 		
 		System.out.println("Enter the data :- ");
-		for (int i =1;i<n;i++) {
+		for (int i =1;i<=n;i++) {
 			System.out.print("    "+i+" :- ");
 			String string = str.nextLine();
 			hashdata.put(i , string);
